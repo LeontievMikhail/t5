@@ -9,5 +9,6 @@ spec:
   - name: hello-demo
     image: hello-py:v1
     ports:
-      - containerPort: 80
+      - name: wev
+        containerPort: 80
       
